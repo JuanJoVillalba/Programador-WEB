@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    background-color: bisque;
+}
+footer {
+    background-color: darksalmon;
+    color: currentColor;
+    padding: 0.5 em;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+header {
+    background-color: darksalmon;
+    color: aqua;
+   
+}
+li {
+    display: inline;
+}
+nav {
+    display: inline-block;
+    flex-direction: column;
+}
