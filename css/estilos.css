@@ -19,9 +19,57 @@ header {
 li {
     display: inline;
 }
-#elegir > div: :nth-child(1) {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#inicio {
+    text-align: center;
+}
+.contariner-inicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+#elegir {
+    
+    min-height: 100vh;
+    background-color: cornsilk;
+}
+#elegir img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#elegir h2 {
+    margin: 0px;
+    padding-top: 1em;
+}
+#elegir h2, #elegir h3 {
+    text-align: center;
+}
+.container-formas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.container-formas > div {
+    flex-basis: 40%;
+    border: 1px solid black;
+    margin-bottom: 2em;
+    border-radius: 50px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+#galeria {
+    text-align: center;
+}
+.container-galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
 }

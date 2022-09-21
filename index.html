@@ -9,32 +9,63 @@
     <meta name="description" content="Arte Fun">
     <meta name="keywords" content="arte,divertido,pintura">
     <title> Arte Fun </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" herf="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
     <header>
-        <h1> ARTE FUN </h1>
-        <h3> Una web para ver y expresarse </h3>
-        <p>  Bienvenidos a la Web de Arte </p>
-        <nav>
-            <ul>
-                <li> Inicio </li>
-                <li> Conocé / Integrate </li>
-                <li> Galerìa </li>
-                <li> Conectate </li>
-            </ul>
-                <img src="./imagen/boom.jpg" alt="Imgen Boom">
-        </nav>
-    </header>
-    <section id="elegir">
         <div>
+            <a href="./index.html">
+                <img src="./imagen/boom.jpg" alt="Imgen Boom">
+                <span class="boom">ARTE FUN</span>
+            </a>
+        </div>
+        <div id="inicio">
+            <div class="container-inicio">
+                <h3> Una web para ver y expresarse </h3>
+                <p>  Bienvenidos a la Web de Arte </p>
+            </div>
+        
+        
             <ul>
-                <li> Anime <img src="./imagen/Anime.jpg" alt="Imgen Variada Anime"> </li>
-                <li> Comic <img src="./imagen/comics.jpg" alt="Imagen Variada de Comic"> </li>
-                <li> Hobby/Imitaciones <img src="./imagen/Eiffel.jpg" alt="Imagen de Torre Eiffel"> </li>
-                <li> Pics Famosas <img src="./imagen/Relojes.jpg" alt="Imagen Relojes Derretidos"> </li>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#conocenos">Conocé/Integrate</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#galeria">Galeria</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="contacto.html">Contactanos</a>
+                </li>
             </ul>
+        </div>
+    </header>
+    <section id="elegir">        
+        <div class="container-formas">
+            <div>
+                <img src="./imagen/Anime.jpg" alt="Imgen Variada Anime">
+                <h3> Anime </h3>
+            </div>
+            <div>
+                <img src="./imagen/comics.jpg" alt="Imagen Variada de Comic">
+                <h3> Comic </h3>
+            </div>
+            <div>
+                <img src="./imagen/Eiffel.jpg" alt="Imagen de Torre Eiffel">
+                <h3> Hobbys/Imitaciones </h3>
+            </div>
+            <div>
+                <img src="./imagen/Relojes.jpg" alt="Imagen Relojes Derretidos">
+                <h3> Pics Famosas </h3>
+            </div>
         </div> 
     </section>
     <section>
@@ -45,16 +76,19 @@
             
         </div>
     </section>    
-    <section>
-        <nav> 
-            <h2> Galeria </h2>
+    <section id="galeria">
+        <h2> Galeria </h2>
+        <nav class="container-galeria"> 
             <img src="./imagen/Estrellas.jpg" alt="Imagen de Estrellas">
             <img src="./imagen/Real.jpg" alt="Imgen Pavo Real">
         </nav>
     </section>
     <a href="contacto.html"> <h2> Contactanos </h2> </a>
     <footer>
-        JuanJo Villalba - Instagram - Facebook
+        <span> JuanJo  Villalba - </span>
+        <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
+        <a href="https://www.facebook.com/" target="_blank"> Facebook </a>
     </footer>
+
 </body>
 </html>
