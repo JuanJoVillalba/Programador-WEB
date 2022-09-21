@@ -19,7 +19,7 @@ header {
 li {
     display: inline;
 }
-section {
+#elegir > div: :nth-child(1) {
     display: block;
     flex-direction: column;
     justify-content: center;
