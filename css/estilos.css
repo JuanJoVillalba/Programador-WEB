@@ -19,7 +19,9 @@ header {
 li {
     display: inline;
 }
-nav {
-    display: inline-block;
+section {
+    display: block;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
