@@ -12,23 +12,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" herf="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/b07329e822.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <div>
+    <section id="arte">
+        <div class="container-arte">
+            <h1>  Bienvenidos a la Web de Arte </h1>
             <a href="./index.html">
-                <img src="./imagen/boom.jpg" alt="Imgen Boom">
-                <span class="boom">ARTE FUN</span>
+                <img class="logo" src="./imagen/boom.jpg" alt="Imgen Boom">
             </a>
         </div>
-        <div id="inicio">
+    </section>
+    <header>
+         <div id="inicio">
             <div class="container-inicio">
                 <h3> Una web para ver y expresarse </h3>
-                <p>  Bienvenidos a la Web de Arte </p>
             </div>
-        
-        
             <ul>
                 <li>
                     <a href="#inicio">Inicio</a>
@@ -50,21 +50,21 @@
     </header>
     <section id="elegir">        
         <div class="container-formas">
-            <div>
-                <img src="./imagen/Anime.jpg" alt="Imgen Variada Anime">
-                <h3> Anime </h3>
+            <div>                
+                <img src="./imagen/Anime.jpg" class="anime" alt="Imgen Variada Anime">
+                <a href="#galeria"><h3> Anime </h3></a>
             </div>
-            <div>
+            <div>                
                 <img src="./imagen/comics.jpg" alt="Imagen Variada de Comic">
-                <h3> Comic </h3>
+                <a href="#galeria"><h3> Comic </h3></a>
             </div>
-            <div>
+            <div>                
                 <img src="./imagen/Eiffel.jpg" alt="Imagen de Torre Eiffel">
-                <h3> Hobbys/Imitaciones </h3>
+                <a href="#galeria"><h3> Hobbys/Imitaciones </h3></a>
             </div>
-            <div>
+            <div>                
                 <img src="./imagen/Relojes.jpg" alt="Imagen Relojes Derretidos">
-                <h3> Pics Famosas </h3>
+                <a href="#galeria"><h3> Pics Famosas </h3></a>
             </div>
         </div> 
     </section>
@@ -88,8 +88,12 @@
     
     <footer>
         <span> JuanJo  Villalba - </span>
-        <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
-        <a href="https://www.facebook.com/" target="_blank"> Facebook </a>
+        <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
     </footer>
 
 </body>
