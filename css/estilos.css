@@ -100,4 +100,5 @@ li {
 }
 #pie {
     text-align: center;
+    position: fixed;
 }
